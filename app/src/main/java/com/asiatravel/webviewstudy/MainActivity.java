@@ -45,11 +45,6 @@ public class MainActivity extends AppCompatActivity {
 //        loadUrl(JEKE_URL);
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-
     private void loadUrl(String url) {
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
